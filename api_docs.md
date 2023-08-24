@@ -33,8 +33,7 @@ _Response (201 - Created)_
 
 ```json
 {
-  "id": "integer",
-  "email": "string",
+  "message": "string"
   "access_token": "string"
 }
 ```
@@ -82,7 +81,9 @@ _Response (200 - OK)_
 
 ```json
 {
-  "access_token": "string"
+  "access_token": "string",
+  "username": "string",
+  "message": "string"
 }
 ```
 
